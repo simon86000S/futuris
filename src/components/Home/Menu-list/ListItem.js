@@ -13,8 +13,10 @@ function ListItem({closeMenu}) {
         <li>photos</li>
       </ul>
       <div onClick={closeMenu} className='closeMenu'>
+       <div className='menuClose'>
         <span></span>
         <span></span>
+        </div>
       </div>
 
     </div>
