@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/futuris/static/css/main.8091d0de.css",
-    "main.js": "/futuris/static/js/main.7821a318.js",
+    "main.css": "/futuris/static/css/main.7c27268d.css",
+    "main.js": "/futuris/static/js/main.3e02ac6e.js",
     "static/js/787.b043d482.chunk.js": "/futuris/static/js/787.b043d482.chunk.js",
     "static/media/men2.jpg": "/futuris/static/media/men2.0b72d28d676f17524231.jpg",
     "static/media/men.jpg": "/futuris/static/media/men.1ea9b69deca3e433548d.jpg",
@@ -10,12 +10,12 @@
     "static/media/ingeneer.jpeg": "/futuris/static/media/ingeneer.c77c184a81ed85044fa9.jpeg",
     "static/media/main.webp": "/futuris/static/media/main.7f16ad7f23eacc7d063f.webp",
     "index.html": "/futuris/index.html",
-    "main.8091d0de.css.map": "/futuris/static/css/main.8091d0de.css.map",
-    "main.7821a318.js.map": "/futuris/static/js/main.7821a318.js.map",
+    "main.7c27268d.css.map": "/futuris/static/css/main.7c27268d.css.map",
+    "main.3e02ac6e.js.map": "/futuris/static/js/main.3e02ac6e.js.map",
     "787.b043d482.chunk.js.map": "/futuris/static/js/787.b043d482.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.8091d0de.css",
-    "static/js/main.7821a318.js"
+    "static/css/main.7c27268d.css",
+    "static/js/main.3e02ac6e.js"
   ]
 }
