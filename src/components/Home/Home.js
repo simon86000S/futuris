@@ -1,12 +1,12 @@
 import React from 'react'
-import Article from './Article/Article';
-import Menu from './Menu/menu';
+import Article from "./Article/Article"
+import Menu from './Menu/menu'
 
-const Home = () => {
+function Home() {
   return (
     <>
-        <Article/>
-       <Menu/> 
+      <Menu/>
+      <Article/>
     </>
   )
 }

@@ -8,8 +8,8 @@ function ListItem({closeMenu}) {
     <div className="List">
     <div className="menu-item">
       <ul>
-        <Link to="/"><li>Accueil</li></Link>
-        <li>contact</li>
+        
+        <Link to="/contact"><li>contact</li></Link>
         <li>photos</li>
       </ul>
       <div onClick={closeMenu} className='closeMenu'>

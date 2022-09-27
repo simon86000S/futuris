@@ -1,37 +1,31 @@
-
-import '../Menu/menu.scss'
+import "../Menu/menu.scss";
 import { useState } from "react";
 import ListItem from "../Menu-list/ListItem";
+import { Link } from "react-router-dom";
 
 function Menu() {
-  const [showmenu, setShowMenu] = useState(false)
+  const [showmenu, setShowMenu] = useState(false);
 
-  const handleShow=()=>{
-
-setShowMenu(true)
-
-
-  }
+  const handleShow = () => {
+    setShowMenu(true);
+  };
 
   return (
-    <div className='container'>
-      <div onClick={handleShow} className='menu'>
-      <h1>Menu</h1>
-      
-      <span></span>
-      <span></span>
-      <span></span>
-      
+    <div className="container">
+      <div onClick={handleShow} className="menu">
+        <h1>Menu</h1>
+
+        <span></span>
+        <span></span>
+        <span></span>
       </div>
-      {
-      showmenu &&(
-        <div className="list-menu"> 
-        <ListItem closeMenu={()=>setShowMenu(false)}/></div>
-  )
-     }
-      </div>
-      
-  )
+      {showmenu && (
+        <div className="list-menu">
+          <ListItem closeMenu={() => setShowMenu(false)} />
+        </div>
+      )}
+    </div>
+  );
 }
 
-export default Menu
+export default Menu;

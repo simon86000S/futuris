@@ -7,12 +7,14 @@ import "./article.scss";
 import men from '../../assets/img/men.jpg';
 import men2 from "../../assets/img/men2.jpg"
 
+
 function Article() {
   return (
     <div className="article">
+        
       <div className="cadre">
         <div className="menu">
-        
+     
        < nav className="navigation">
             <ul>
               <li>Menu</li>
