@@ -1,17 +1,18 @@
 import React from 'react';
 import './App.scss';
-import Article from './components/Article/Article'
-import Menu from './components/Menu/menu'
-
+import Home from './components/Home/Home';
+import {  Routes, Route } from "react-router-dom";
 function App() {
 
  
   return (
 
     <div className="App">
-   
-    <Article/>
-    <Menu/>
+      <Routes>
+        <Route path='/' element={<Home/>}/>
+      </Routes>
+    
+    
     </div>
    
   );

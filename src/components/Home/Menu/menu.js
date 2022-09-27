@@ -1,7 +1,7 @@
 
-import "./menu.scss"
+import '../Menu/menu.scss'
 import { useState } from "react";
-import ListItem from "../../Menu-list/ListItem";
+import ListItem from "../Menu-list/ListItem";
 
 function Menu() {
   const [showmenu, setShowMenu] = useState(false)
@@ -26,7 +26,7 @@ setShowMenu(true)
       {
       showmenu &&(
         <div className="list-menu"> 
-        <ListItem/></div>
+        <ListItem closeMenu={()=>setShowMenu(false)}/></div>
   )
      }
       </div>
