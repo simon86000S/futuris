@@ -18,6 +18,7 @@
       display: flex;
       justify-content: space-around;
       list-style-type: none;
+    
     }
 
     li {
@@ -25,6 +26,8 @@
       cursor: pointer;
       font-size: 20px;
       text-transform: uppercase;
+      
+     
       &:hover {
         color: gray;
         transition: 600ms ease-in;
@@ -64,6 +67,7 @@
       left: 5px;
 
       background-color: white;
+      transition: transform 1s ease;
 
       &:nth-child(2) {
         transform: translateY(-10px);

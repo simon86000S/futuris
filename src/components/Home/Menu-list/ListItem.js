@@ -9,7 +9,7 @@ function ListItem({closeMenu}) {
     <div className="menu-item">
       <ul>
         
-        <Link to="/contact"><li>contact</li></Link>
+        <Link style={{textDecoration:'none'}} to="/contact"><li>contact</li></Link>
         <li>photos</li>
       </ul>
       <div onClick={closeMenu} className='closeMenu'>
