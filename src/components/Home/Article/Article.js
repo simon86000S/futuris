@@ -1,4 +1,4 @@
-import React from "react";
+import React,{useEffect,useRef} from "react";
 import main from "../../assets/img/main.webp";
 import ingeneer from "../../assets/img/ingeneer.jpeg";
 import background from "../../assets/img/background.jpg";
@@ -6,11 +6,22 @@ import qrcode from "../../assets/img/pexel.png";
 import "./article.scss";
 import men from '../../assets/img/men.jpg';
 import men2 from "../../assets/img/men2.jpg"
+import Draggable from "gsap/Draggable";
 
 
 function Article() {
+  const article = useRef(null)
+  useEffect(() => {
+    Draggable.create(article.current, {
+      type: "x,y",
+      
+      edgeResistance: 0.65,
+ bounds:'.App',
+      inertia: true,
+    });
+  }, []);
   return (
-    <div className="article">
+    <div ref={article} className="article">
         
       <div className="cadre">
         <div className="menu">
