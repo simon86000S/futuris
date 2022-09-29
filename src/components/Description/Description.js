@@ -1,13 +1,12 @@
-import React, { useRef, useEffect } from "react";
+import React from "react";
 import "../Description/Description.scss";
 
 function Description() {
-  const para = useRef(null);
+  
 
-  useEffect(() => {}, []);
 
   return (
-    <div ref={para} className="desc-homepage">
+    <div className="desc-homepage">
       <h1>L'intelligence artificielle (IA) </h1>
       <div id="quote">
         L'intelligence artificielle est un processus d'imitation de
