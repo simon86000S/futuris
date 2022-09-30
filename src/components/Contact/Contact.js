@@ -7,6 +7,7 @@ gsap.registerPlugin(Draggable);
 
 function Contact() {
   const form = useRef(null)
+  
   useEffect(() => {
     Draggable.create(form.current, {
       type: "x,y",
@@ -15,10 +16,13 @@ function Contact() {
  bounds:'.App',
       inertia: true,
     });
+   
   }, []);
 
+
+
   return (
-    <div className="FormContact" ref={form}>
+    <div  className="FormContact" ref={form}>
       {" "}
       <div className="Form" id="Form">
         <div className="desc">
@@ -44,7 +48,7 @@ ffl@ucwrg.com</p>
         </div>
       
       
-        <span></span>{" "}
+      
         <Link to="/">
           {" "}
           <button>Fermer</button>
