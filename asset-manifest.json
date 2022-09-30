@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/futuris/static/css/main.1867ca70.css",
+    "main.css": "/futuris/static/css/main.ae312b2e.css",
     "main.js": "/futuris/static/js/main.dfcbe4af.js",
     "static/js/787.b043d482.chunk.js": "/futuris/static/js/787.b043d482.chunk.js",
     "static/media/men2.jpg": "/futuris/static/media/men2.0b72d28d676f17524231.jpg",
@@ -10,12 +10,12 @@
     "static/media/ingeneer.jpeg": "/futuris/static/media/ingeneer.c77c184a81ed85044fa9.jpeg",
     "static/media/main.webp": "/futuris/static/media/main.7f16ad7f23eacc7d063f.webp",
     "index.html": "/futuris/index.html",
-    "main.1867ca70.css.map": "/futuris/static/css/main.1867ca70.css.map",
+    "main.ae312b2e.css.map": "/futuris/static/css/main.ae312b2e.css.map",
     "main.dfcbe4af.js.map": "/futuris/static/js/main.dfcbe4af.js.map",
     "787.b043d482.chunk.js.map": "/futuris/static/js/787.b043d482.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.1867ca70.css",
+    "static/css/main.ae312b2e.css",
     "static/js/main.dfcbe4af.js"
   ]
 }
